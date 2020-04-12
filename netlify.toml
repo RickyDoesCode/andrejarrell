@@ -1,0 +1,29 @@
+[build]
+    publish = "site"
+[build.processing.css]
+    bundle = true
+    minify = true
+[build.processing.js]
+    bundle = true
+    minify = true
+[[redirects]]
+    from = "/github"
+    to = "https://github.com/andrejarrell"
+[[redirects]]
+    from = "/instagram"
+    to = "https://www.instagram.com/andrejarrell"
+[[redirects]]
+    from = "/linkedin"
+    to = "https://www.linkedin.com/in/andrejarrell"
+[[redirects]]
+    from = "/youtube"
+    to = "https://www.youtube.com/channel/UC905N0PraDnnIDIB2cqL74Q"
+[[redirects]]
+    from = "/glitch"
+    to = "https://glitch.com/@andrejarrell"
+[[redirects]]
+    from = "/reddit"
+    to = "https://www.reddit.com/user/andrejarrell"
+[[redirects]]
+    from = "/steam"
+    to = "http://steamcommunity.com/id/andrejarrell"
