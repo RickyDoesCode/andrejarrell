@@ -1,3 +1,17 @@
+if (localStorage.theme === 'dark') {
+    $('body').attr('data-theme', 'dark');
+};
+
+let toggle = () => {
+    if (localStorage.theme === 'light') {
+        $('body').attr('data-theme', 'dark');
+        localStorage.theme = 'dark';
+    } else {
+        $('body').attr('data-theme', 'light');
+        localStorage.theme = 'light';
+    };
+};
+
 (function($) {
     "use strict";
 
