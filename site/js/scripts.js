@@ -23,16 +23,3 @@
     });
 
 })(jQuery);
-
-
-const gitalk = new Gitalk({
-    clientID: '3d203b790df8ffae149c',
-    clientSecret: '5978c49eb122c9d8b44574d4a4d7bc0b90e1de96',
-    repo: 'Website',
-    owner: 'andrejarrell',
-    admin: ['andrejarrell'],
-    id: 'gitalk',
-    distractionFreeMode: false
-});
-
-gitalk.render('gitalk-container')
