@@ -11,6 +11,7 @@
         <link href="css/styles.css" rel="stylesheet">
     </head>
     <body id="page-top">
+        <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
             <span class="d-block d-lg-none">Andre Jarrell</span>
@@ -30,12 +31,14 @@
                         <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link js-scroll-trigger" href="#certifications">Certifications</a>
-                    </li> 
+                        <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#comments">Comments</a>
+                    </li>
                 </ul>
             </div>
         </nav>
-
         <!-- About -->
         <div class="container-fluid p-0">
             <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
@@ -49,25 +52,23 @@
                     </div>
                     <p class="lead mb-5">I am a Web and Bot developer. It is my passion to learn new technologies or frameworks and get better at JavaScript.</p>
                     <div class="social-icons">
-                        <a target="blank" href="https://www.linkedin.com/in/andrejarrell">
+                        <a href="https://www.linkedin.com/in/andrejarrell" target="blank">
                             <i class="fab fa-linkedin-in"></i>
                         </a>
-                        <a  target="_blank" href="https://github.com/andrejarrell">
+                        <a href="https://github.com/andrejarrell" target="blank">
                             <i class="fab fa-github"></i>
                         </a>
-                        <a target="_blank" href="https://www.instagram.com/andrejarrell">
+                        <a href="https://www.instagram.com/andrejarrell" target="blank">
                             <i class="fab fa-instagram"></i>
                         </a>
-                        <a target="_blank" href="https://www.reddit.com/user/andrejarrell">
+                        <a href="https://www.reddit.com/user/andrejarrell" target="blank">
                             <i class="fab fa-reddit"></i>
                         </a>
                     </div>
                 </div>
             </section>
             <hr class="m-0">
-
             <!-- Skills -->
-            <hr class="m-0">
             <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
                 <div class="w-100">
                     <h2 class="mb-5">Skills</h2>
@@ -87,10 +88,10 @@
                         </li>
                         <li class="list-inline-item">
                             <i class="fab fa-ubuntu"></i>
-                        </li> 
+                        </li>
                         <li class="list-inline-item">
                             <i class="fab fa-bootstrap"></i>
-                        </li> 
+                        </li>
                         <li class="list-inline-item">
                             <i class="fab fa-vuejs"></i>
                         </li>
@@ -126,35 +127,76 @@
                 </div>
             </section>
             <hr class="m-0">
-
-            <!-- Certifications -->
-            <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="certifications">
+            <!-- Projects -->
+            <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="projects">
                 <div class="w-100">
-                    <h2 class="mb-5">Certifications</h2>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <i class="fas fa-li fa-graduation-cap text-warning"></i>
-                            Basic Military Training -  LMABM9T000 00AC
-                        </li>
-                        <li>
-                            <i class="fas fa-li fa-graduation-cap text-warning"></i>
-                            Information Technology Fundamentals - E3AQR3D133 02AA
-                        </li>
-                        <li>
-                            <i class="fas fa-li fa-graduation-cap text-warning"></i>
-                            Radio Frequency Transmissions Systems - E3ABR3D133 01AC
-                        </li>
-                        <li>
-                            <i class="fas fa-li fa-graduation-cap text-warning"></i>
-                            Theater Deployable Communications
-                        </li>
-                    </ul>
+                    <h2 class="mb-5">Projects</h2>
+                    <!-- Tic Tac Toe -->
+                    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="resume-content">
+                            <h3 class="mb-0">Tic Tac Toe</h3>
+                            <p>This multiplayer tic tac toe game is made possible with Socketio. With websockets we can allow the client and server a full-duplex TCP like connection. This game includes invite links, theme toggle and rematches.</p>
+                            <p>
+                                🔗 <a href="https://tttjs.glitch.me" target="_blank">
+                                    tttjs.glitch.me
+                                </a>
+                            </p>
+                        </div>
+                        <div class="resume-date text-md-right">
+                            <a href="https://github.com/andrejarrell/TicTacToe" target="_blank">
+                                <img src="https://img.shields.io/badge/Github-tictactoe-white?style=social&logo=github">
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Statsbot -->
+                    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="resume-content">
+                            <h3 class="mb-0">Statsbot</h3>
+                            <p>Statsbot meshes a Discord bot and REST API together to create some pretty awesome things. Features svg badges and server pages.</p>
+                            <p>
+                                🔗 <a href="https://docs.andrejarrell.com/statsbot" target="_blank">
+                                    docs.andrejarrell.com/statsbot
+                                </a>
+                            </p>
+                        </div>
+                        <div class="resume-date text-md-right">
+                            <a href="https://github.com/andrejarrell/Statsbot" target="_blank">
+                                <img src="https://img.shields.io/badge/Github-statsbot-white?style=social&logo=github">
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Starterbot -->
+                    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="resume-content">
+                            <h3 class="mb-0">Starterbot</h3>
+                            <p>This multiplayer tic tac toe game is made possible with Socketio. With websockets we can allow the client and server a full-duplex TCP like connection. This game includes invite links, theme toggle and rematches.</p>
+                            <p>
+                                🔗 <a href="https://docs.andrejarrell.com/starterbot" target="_blank">
+                                    docs.andrejarrell.com/starterbot
+                                </a>
+                            </p>
+                        </div>
+                        <div class="resume-date text-md-right">
+                            <a href="https://github.com/andrejarrell/Starterbot" target="_blank">
+                                <img src="https://img.shields.io/badge/Github-starterbit-white?style=social&logo=github">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0">
+            <!-- Comments -->
+            <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="comments">
+                <div class="w-100">
+                    <h2 class="mb-5">Comments</h2>
+                    <div id="gitalk-container"></div>
                 </div>
             </section>
         </div>
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.bundle.min.js"></script>
         <script src="js/jquery.easing.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
         <script src="js/scripts.js"></script>
         <script src="https://kit.fontawesome.com/82a7a0d4c2.js" crossorigin="anonymous"></script>
     </body>
