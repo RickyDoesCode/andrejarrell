@@ -3,17 +3,17 @@ let btn = document.getElementById('toggle');
 
 if (localStorage.theme === 'dark') {
     body.setAttribute('data-theme', 'dark');
-    btn.innerText('🌙 Toggle Theme');
+    btn.innerHTML('🌙 Toggle Theme');
 };
 
 let toggle = () => {
     if (localStorage.theme === 'light') {
         body.setAttribute('data-theme', 'dark');
-        btn.innerText('🌙 Toggle Theme');
+        btn.innerHTML('🌙 Toggle Theme');
         localStorage.theme = 'dark';
     } else {
         body.setAttribute('data-theme', 'light');
-        btn.innerText('☀️ Toggle Theme');
+        btn.innerHTML('☀️ Toggle Theme');
         localStorage.theme = 'light';
     };
 };
