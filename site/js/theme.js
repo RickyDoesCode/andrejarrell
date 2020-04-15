@@ -4,7 +4,7 @@ let btn = document.getElementById('toggle');
 if (localStorage.theme === 'dark') {
     body.setAttribute('data-theme', 'dark');
     btn.innerText = '🌙 Toggle Theme';
-}
+};
 
 let toggle = () => {
     if (localStorage.theme === 'light') {
