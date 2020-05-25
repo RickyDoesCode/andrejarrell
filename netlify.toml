@@ -13,9 +13,6 @@
     from = "/linkedin"
     to = "https://www.linkedin.com/in/andrejarrell"
 [[redirects]]
-    from = "/reddit"
-    to = "https://www.reddit.com/user/andrejarrell"
-[[redirects]]
     from = "/digitalocean"
     to = "https://m.do.co/c/6aef79a2cf4a"
 [[redirects]]
