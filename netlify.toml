@@ -16,5 +16,8 @@
     from = "/instagram"
     to = "https://www.instagram.com/andrejarrell"
 [[redirects]]
+    from = "/linkedin"
+    to = "https://www.linkedin.com/in/andrejarrell"
+[[redirects]]
     from = "/youtube"
     to = "https://www.youtube.com/channel/UC905N0PraDnnIDIB2cqL74Q"
