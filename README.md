@@ -1,5 +1,12 @@
 ## 👨‍💻 About
 
+<a href="https://andrejarrell.com/linkedin">
+    <img alt="LinkedIn" src="https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white">
+</a>
+<a href="https://andrejarrell.com/instagram">
+    <img alt="Instagr" src="https://img.shields.io/badge/-Instagram-C33A85?style=flat-square&logo=instagram&logoColor=white">
+</a>
+
 I am a Full Stack Web Developer. That means I work on the Front End (JS, HTML, CSS) and the Back End (Databases, APIs, Routing). It is my passion to create new things and get better at what I do.
 
 ## ⚡ Technologies
@@ -14,7 +21,7 @@ I am a Full Stack Web Developer. That means I work on the Front End (JS, HTML, C
 ![DigitalOcean](https://img.shields.io/badge/-Digital%20Ocean-0060FF?style=flat-square&logo=digitalocean&logoColor=white)
 ![Git](https://img.shields.io/badge/-Git-F74E27?style=flat-square&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![Raspberry Pi](https://img.shields.io/badge/-Raspberry%20Pi-Ccha51A4A?style=flat-square&logo=Raspberry-Pi&logoColor=white)
+![Raspberry Pi](https://img.shields.io/badge/-Raspberry%20Pi-C0166E?style=flat-square&logo=Raspberry-Pi&logoColor=white)
 ![Vue](https://img.shields.io/badge/-Vue-41B883?style=flat-square&logo=vue.js&logoColor=white)
 ![VSCode](https://img.shields.io/badge/-VSCode-0066B8?style=flat-square&logo=visual-studio-code&logoColor=white)
 ![Ubuntu](https://img.shields.io/badge/-Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white)
