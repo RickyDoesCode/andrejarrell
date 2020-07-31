@@ -17,7 +17,7 @@ I am a Full Stack Web Developer. That means I work on the Front End (JS, HTML, C
 ![Raspberry Pi](https://img.shields.io/badge/-Raspberry%20Pi-Ccha51A4A?style=flat-square&logo=Raspberry-Pi&logoColor=white)
 ![Vue](https://img.shields.io/badge/-Vue-41B883?style=flat-square&logo=vue.js&logoColor=white)
 ![VSCode](https://img.shields.io/badge/-VSCode-0066B8?style=flat-square&logo=visual-studio-code&logoColor=white)
-![Ubuntu](https://img.shields.io/badge/-Ubuntu-E95420?style=flat-square&logo=ubunt&logoColor=white)
+![Ubuntu](https://img.shields.io/badge/-Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white)
 ![ESLint](https://img.shields.io/badge/-ESLint-%234B32C3?style=flat-square&logo=eslint&logoColor=white)
 ![Netlify](https://img.shields.io/badge/-Netlify-%2300C7B7?style=flat-square&logo=netlify&logoColor=white)
 
