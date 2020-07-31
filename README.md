@@ -18,8 +18,10 @@ I am a Full Stack Web Developer. That means I work on the Front End (JS, HTML, C
 ![Vue](https://img.shields.io/badge/-Vue-35495E?style=flat-square&logo=vue.js)
 ![VSCode](https://img.shields.io/badge/-VSCode-0066B8?style=flat-square&logo=visual-studio-code)
 ![Ubuntu](https://img.shields.io/badge/-Ubuntu-black?style=flat-square&logo=ubuntu)
+![ESLint](https://img.shields.io/badge/-ESLint-%234B32C3?style=flat-square&logo=eslint)
+![Netlify](https://img.shields.io/badge/-Netlify-%2300C7B7?style=flat-square&logo=netlify&logoColor=ffffff)
 
-## 📊 GitHub Stats
+## 📊 Stats
 
 <a href="https://github.com/andrejarrell">
     <img height="180em" src="https://stats.andrejarrell.com/api?username=andrejarrell&show_icons=true&count_private=true&hide_border=true">
