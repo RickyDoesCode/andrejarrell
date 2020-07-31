@@ -11,6 +11,8 @@
 ![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git)
 ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github)
 ![Raspberry Pi](https://img.shields.io/badge/-Raspberry%20Pi-C51A4A?style=flat-square&logo=Raspberry-Pi)
+![Vue](https://img.shields.io/badge/-Vue-35495E?style=flat-square&logo=vue.js)
+![VSCode](https://img.shields.io/badge/-VSCode-0066B8?style=flat-square&logo=visual-studio-code)
 
 ## 📊 GitHub Stats
 
