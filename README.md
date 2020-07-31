@@ -1,4 +1,4 @@
-## 👨‍💻 About
+## <img src="https://andrejarrell.com/img/cat.gif" width="30">  About 
 
 <a href="https://andrejarrell.com/linkedin">
     <img alt="LinkedIn" src="https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white">
