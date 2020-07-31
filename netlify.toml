@@ -1,13 +1,5 @@
-[build]
-    publish = "site"
-[build.processing.css]
-    bundle = true
-    minify = true
-[build.processing.js]
-    bundle = true
-    minify = true
 [[redirects]]
-    from = "/github"
+    from = "/"
     to = "https://github.com/andrejarrell"
 [[redirects]]
     from = "/digitalocean"
@@ -18,6 +10,3 @@
 [[redirects]]
     from = "/linkedin"
     to = "https://www.linkedin.com/in/andrejarrell"
-[[redirects]]
-    from = "/youtube"
-    to = "https://www.youtube.com/channel/UCdJM2t3190hA0Hpx5NYjH6A"
