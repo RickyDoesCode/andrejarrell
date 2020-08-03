@@ -37,6 +37,11 @@ I am a Full Stack Web Developer. That means I work on the Front End (JS, HTML, C
 ![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socket.io&logoColor=white)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 
+## 📝 Posts
+
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+
 ## 📊 Stats
 
 <a href="https://stats.andrejarrell.com">
