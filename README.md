@@ -6,9 +6,13 @@
 <a href="https://andrejarrell.com/instagram">
     <img alt="Instagram" src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white">
 </a>
-<a href="https://dev.to/andrejarrell">
+<a href="https://andrejarrell.com/dev">
     <img alt="Dev" src="https://img.shields.io/badge/DEV-0A0A0A?style=flat-square&logo=dev.to&logoColor=white">
 </a>
+<a href="https://andrejarrell.com/glitch">
+    <img alt="Glitch" src="https://img.shields.io/badge/Glitch-3333FF?style=flat-square&logo=glitch&logoColor=white">
+</a>
+
 
 I am a Full Stack Web Developer. That means I work on the Front End (JS, HTML, CSS) and the Back End (Databases, APIs, Routing). It is my passion to create new things and get better at what I do.
 
@@ -33,7 +37,6 @@ I am a Full Stack Web Developer. That means I work on the Front End (JS, HTML, C
 ![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white)
 ![NGINX](https://img.shields.io/badge/NGINX-269539?style=flat-square&logo=nginx&logoColor=white)
 ![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jquery&logoColor=white)
-![Glitch](https://img.shields.io/badge/Glitch-3333FF?style=flat-square&logo=glitch&logoColor=white)
 ![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socket.io&logoColor=white)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 

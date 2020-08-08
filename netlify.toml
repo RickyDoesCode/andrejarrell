@@ -10,3 +10,9 @@
 [[redirects]]
     from = "/linkedin"
     to = "https://www.linkedin.com/in/andrejarrell"
+[[redirects]]
+    from = "/dev"
+    to = "https://dev.to/andrejarrell"
+[[redirects]]
+    from = "/glitch"
+    to = "https://glitch.com/@andrejarrell"
