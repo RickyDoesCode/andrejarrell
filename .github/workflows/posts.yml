@@ -2,25 +2,23 @@ name: Update Dev Posts
 on: 
   workflow_dispatch:
   schedule:
-    - cron: '0 * * * *'
+    cron: '0 * * * *'
+
+env: 
+  FEED: https://dev.to/feed/andrejarrell
+  MESSAGE: Updated Dev Posts
+  USERNAME: andrejarrell's workflow
+  EMAIL: mail@andrejarrell.com
+  LOCATOR: <!-- posts -->
+  TOKEN: ${{ secrets.GH_TOKEN }}
 
 jobs:
   update:
-    name: Update
     runs-on: ubuntu-18.04
-    env: 
-      FEED: https://dev.to/feed/andrejarrell
-      MESSAGE: Updated Dev Posts
-      USERNAME: andrejarrell's workflow
-      EMAIL: mail@andrejarrell.com
-      LOCATOR: <!-- posts -->
-      TOKEN: ${{ secrets.GH_TOKEN }}
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: Node.js
-        uses: actions/setup-node@v1
-        with: 
-          node-version: 12
-      - run: npm ci
-      - run: npm run posts
+      uses: actions/checkout@v2
+      uses: actions/setup-node@v1
+      with: 
+        node-version: 12
+      run: npm ci
+      run: npm run posts
