@@ -1,4 +1,3 @@
-require('dotenv').config();
 let xml2js = require('xml2js');
 let fs = require('fs').promises;
 let superagent = require('superagent');
