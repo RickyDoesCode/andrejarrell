@@ -1,0 +1,24 @@
+name: Update Dev Posts
+on: 
+  schedule:
+    - cron: '0 * * * *'
+
+jobs:
+  update:
+    name: Update
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with: 
+          node-version: '12'
+          check-latest: true
+      - run: npm ci
+      - run: npm run posts
+        env: 
+          FEED: 'https://dev.to/feed/andrejarrell'
+          MESSAGE: 'Updated Dev Posts'
+          USERNAME: 'andrejarrell's workflow'
+          EMAIL: 'mail@andrejarrell.com'
+          LOCATOR: '<!-- posts -->'
+          TOKEN: ${{ secrets.GH_TOKEN }}
