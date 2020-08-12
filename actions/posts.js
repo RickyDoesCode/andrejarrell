@@ -1,10 +1,10 @@
+require('dotenv').config();
 let xml2js = require('xml2js');
 let fs = require('fs').promises;
 let superagent = require('superagent');
 let { exec } = require('child_process');
 let markdowntable = require('markdown-table');
 
-let feed = process.env.FEED;
 let message = process.env.MESSAGE;
 let username = process.env.USERNAME;
 let email = process.env.EMAIL;
@@ -53,11 +53,11 @@ let createTable = posts => {
 
 let editReadme = async (table, data) => {
     let markdown = data.replace(locator, table);
-    await fs.writeFile('test.md', markdown, 'utf8')
+    await fs.writeFile('README.md', markdown, 'utf8')
         .catch(error => console.log(error));
 };
 
-let process = async data => {
+let build = async data => {
     let res = await getFeed();
     let xml = Buffer.from(res.body).toString();
     let json = await xmlConvert(xml);
@@ -68,5 +68,5 @@ let process = async data => {
 };
 
 fs.readFile('README.md', 'utf8')
-    .then(data => process(data))
+    .then(data => build(data))
     .catch(error => console.log(error));
