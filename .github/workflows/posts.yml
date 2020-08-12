@@ -2,7 +2,7 @@ name: Update Dev Posts
 on: 
   workflow_dispatch:
   schedule:
-    cron: '0 * * * *'
+    - cron: '0 * * * *'
 
 env: 
   FEED: https://dev.to/feed/andrejarrell
