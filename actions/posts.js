@@ -1,16 +1,16 @@
-const xml2js = require('xml2js');
-const fs = require('fs').promises;
-const superagent = require('superagent');
-const { exec } = require('child_process');
-const markdowntable = require('markdown-table');
+let xml2js = require('xml2js');
+let fs = require('fs').promises;
+let superagent = require('superagent');
+let { exec } = require('child_process');
+let markdowntable = require('markdown-table');
 
-const feed = process.env.FEED;
-const message = process.env.MESSAGE;
-const username = process.env.USERNAME;
-const email = process.env.EMAIL;
-const locator = process.env.LOCATOR;
-const token = process.env.TOKEN;
-const repo = process.env.GITHUB_REPOSITORY;
+let feed = process.env.FEED;
+let message = process.env.MESSAGE;
+let username = process.env.USERNAME;
+let email = process.env.EMAIL;
+let locator = process.env.LOCATOR;
+let token = process.env.TOKEN;
+let repo = process.env.GITHUB_REPOSITORY;
 
 let commit = () => {
     exec(`git config --global user.email "${email}"`);
