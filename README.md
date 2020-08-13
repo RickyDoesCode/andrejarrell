@@ -42,7 +42,8 @@ I am a Full Stack Web Developer. That means I work on the Front End (JS, HTML, C
 
 ## 📝 Posts
 
-<!-- posts -->
+<!-- devposts:start -->
+<!-- devposts:end -->
 
 ## 📊 Stats
 
