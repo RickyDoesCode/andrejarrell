@@ -1,5 +1,5 @@
-name: Update Dev Posts
-on: 
+name: Show Dev Posts
+on:
   workflow_dispatch:
   schedule:
     - cron: '0 * * * *'
@@ -10,9 +10,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
-        with: 
+        with:
           node-version: 12
-      - uses: andrejarrell/devposts@v1
+      - uses: andrejarrell/devposts@master
         with:
           posts_feed: https://dev.to/feed/andrejarrell
           github_token: ${{ secrets.GH_TOKEN }}
