@@ -53,4 +53,8 @@ I am a Full Stack Web Developer. That means I work on the Front End (JS, HTML, C
 ## 📝 Posts
 
 <!-- devposts:start -->
+| Name                                                                            | Date       |
+| ------------------------------------------------------------------------------- | ---------- |
+| [JavaScript Calculator](https://dev.to/andrejarrell/javascript-calculator-4l6m) | 08/11/2020 |
+| [CSS Variables](https://dev.to/andrejarrell/css-variables-21g)                  | 08/03/2020 |
 <!-- devposts:end -->
