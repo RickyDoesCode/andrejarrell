@@ -1,5 +1,5 @@
 name: Show Dev Posts
-on:
+on: 
   workflow_dispatch:
   schedule:
     - cron: '0 * * * *'
@@ -9,10 +9,10 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
-        with:
-          node-version: 12
       - uses: andrejarrell/devposts@master
         with:
-          posts_feed: https://dev.to/feed/andrejarrell
           github_token: ${{ secrets.GH_TOKEN }}
+          posts_amount: 10
+          posts_feed: https://dev.to/feed/andrejarrell
+          commit_username: andrejarrell's action
+          commit_email: action@andrejarrell.com
