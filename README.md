@@ -48,9 +48,9 @@ I am a Full Stack Web Developer. That means I work on the Front End (JS, HTML, C
 ## 📊 Stats
 
 <a href="https://stats.andrejarrell.com">
-    <img align="left" src="https://stats.andrejarrell.com/api?username=andrejarrell&show_icons=true&count_private=true&hide_border=true&theme=algolia">
+    <img align="left" src="https://stats.andrejarrell.com/api?username=andrejarrell&show_icons=true&count_private=true&hide_border=true">
 </a>
 
 <a href="https://stats.andrejarrell.com">
-    <img align="left" src="https://stats.andrejarrell.com/api/top-langs/?username=andrejarrell&layout=default&hide_border=true&theme=algolia">
+    <img align="left" src="https://stats.andrejarrell.com/api/top-langs/?username=andrejarrell&layout=default&hide_border=true">
 </a>
